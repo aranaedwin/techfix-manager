@@ -21,7 +21,7 @@ try {
     $conexion = new PDO($dns, $usuario, $password, $opciones);
 
     //Solo para probar que funciona. En producción, borramos o comentaremos esta linea
-    echo "¡Conexión exitosa a la base de datos de Techfix!";
+    //echo "¡Conexión exitosa a la base de datos de Techfix!";
 
 }catch(PDOException $e){
     // Si algo sale mal (ej. el servidor está apagado), atrapamos el error aqui y evitamos que el sistema colapse. En producción, podríamos loguear este error en un archivo o mostrar un mensaje amigable al usuario.
