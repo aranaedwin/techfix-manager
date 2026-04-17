@@ -2,44 +2,32 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Clientes</title>
-    <link rel="stylesheet" href="../css/estilos.css">
+    <title>Nuevo Cliente - Michell Repair</title>
+    <link rel="stylesheet" href="../assets/css/estilos.css">
 </head>
 <body>
 
     <div class="tarjeta-formulario">
-        <h2>Nuevo Cliente</h2>
+        <h2>Michell Repair</h2>
+        <p style="text-align:center; font-size: 12px; color: #666;">Registro de Clientes</p>
         
-        <form action="guardar_cliente.php" method="POST">
-            
-            <div class="grupo-input">
-                <label for="nombre">Nombre:</label>
-                <input type="text" id="nombre" name="nombre" required>
-            </div>
+        <form action="../backend/controllers/guardar_cliente.php" method="POST">
+            <label>Nombre:</label>
+            <input type="text" name="nombre" required>
 
-            <div class="grupo-input">
-                <label for="apellido">Apellido:</label>
-                <input type="text" id="apellido" name="apellido" required>
-            </div>
+            <label>Apellido:</label>
+            <input type="text" name="apellido" required>
 
-            <div class="grupo-input">
-                <label for="telefono">Teléfono:</label>
-                <input type="text" id="telefono" name="telefono" required>
-            </div>
+            <label>Teléfono:</label>
+            <input type="text" name="telefono" required>
 
-            <div class="grupo-input">
-                <label for="correo">Correo Electrónico (Opcional):</label>
-                <input type="email" id="correo" name="correo">
-            </div>
+            <label>Correo:</label>
+            <input type="email" name="correo">
 
-            <div class="grupo-input">
-                <label for="direccion">Dirección (Opcional):</label>
-                <input type="text" id="direccion" name="direccion">
-            </div>
+            <label>Dirección:</label>
+            <input type="text" name="direccion">
 
             <button type="submit">Guardar Cliente</button>
-            
         </form>
     </div>
 

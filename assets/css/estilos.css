@@ -1,7 +1,7 @@
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: #f4f4f4;
-    color: #333333;
+    background-color: #001b3a;
+    color: #ffffff;
     display: flex;
     justify-content: center;
     padding-top: 50px;
@@ -9,21 +9,19 @@ body {
 
 .tarjeta-formulario{
     background-color: #ffffff;
+    color: #333;
     padding: 30px;
-    border-radius: 8px;
-    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 12px;
+    box-shadow: 0px 10px 25px rgba(0, 0, 0, 0.5);
     width: 100%;
     max-width: 400px;
+    border-top: 5px solid #ffcc00; /*Detalle dorado del logo*/
 }
 
 h2{
-    color: #E02424;
+    color: #001b3a;
     text-align: center;
     margin-bottom: 20px;
-}
-
-.grupo-input{
-    margin-bottom: 15px;
 }
 
 label{
@@ -35,17 +33,18 @@ label{
 
 button{
     width: 100%;
-    background-color: #E02424;
-    color: white;
+    background-color: #ffcc00; /*Dorado del logo*/
+    color: #001b3a;
     padding: 12px;
     border: none;
-    border-radius: 4px;
+    border-radius: 6px;
     font-size: 16px;
     font-weight: bold;
     cursor: pointer;
     margin-top: 10px;
+    transition: 0.3s;
 }
 
 button:hover{
-    background-color: #B91C1C;
+    background-color: #e6b800; /*Dorado más oscuro para el hover, un poco mas oscuro.*/
 }
