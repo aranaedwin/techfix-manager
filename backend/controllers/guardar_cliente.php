@@ -27,7 +27,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         echo "<div style='font-family:sans-serif; text-align:center; padding:50px; background:#001b3a; color:white; height:100vh;'>";
         echo "<h1>¡Cliente Registrado!</h1>";
         echo "<p>El cliente $nombre $apellido ha sido ingresado al sistema.</p>";
-        echo "<br><a href='../../pages/registrar_cliente.php' style='color:#ffcc00; text-decoration:none; font-weight:bold;'>Volver al Registro</a>";
+        echo "<br><a href='../../pages/lista_clientes.php' style='color:#ffcc00; text-decoration:none; font-weight:bold;'>Volver</a>";
         echo "</div>";
 
     } catch (PDOException $e) {

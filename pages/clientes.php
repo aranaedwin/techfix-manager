@@ -6,7 +6,7 @@
     <link rel="stylesheet" href="../assets/css/estilos.css">
 </head>
 <body>
-
+    
     <div class="tarjeta-formulario">
         <h2>Michell Repair</h2>
         <p style="text-align:center; font-size: 12px; color: #666;">Registro de Clientes</p>
