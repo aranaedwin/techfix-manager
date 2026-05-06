@@ -54,7 +54,7 @@ try {
                         <td><?php echo htmlspecialchars($cliente['telefono']); ?></td>
                         <td><?php echo htmlspecialchars($cliente['correo'] ? $cliente['correo'] : 'N/A'); ?></td>
                         <td>
-                            <a href="#" style="color: #001b3a; font-weight: bold;">Editar</a> | 
+                            <a href="editar_cliente.php?id=<?php echo $cliente['id_cliente']; ?>" style="color: #001b3a; font-weight: bold;">Editar</a> | 
                             <a href="#" style="color: red; font-weight: bold;">Eliminar</a>
                         </td>
                     </tr>
